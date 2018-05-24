@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'commonIcon';
+  src: url(../8fa2b370fonts/common/icomoon.woff);
+}
+.src-videoDscBox__videoDscBoxBoard {
+  display: block;
+}
+.src-videoDscBox__videoDscBoxBoard:after {
+  display: block;
+  visibility: hidden;
+  content: '';
+  clear: both;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxIn {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxIn .src-videoDscBox__preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxIn .src-videoDscBox__preview .src-videoDscBox__previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxBot {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxBot .src-videoDscBox__preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxBot .src-videoDscBox__preview .src-videoDscBox__previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightSm {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+  float: left;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightSm .src-videoDscBox__preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightSm .src-videoDscBox__preview .src-videoDscBox__previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightMd {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+  float: left;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightMd .src-videoDscBox__preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__videoDscBoxRightMd .src-videoDscBox__preview .src-videoDscBox__previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn {
+  width: 160px;
+  height: 40%;
+  position: absolute;
+  top: 60%;
+  font-size: 10px;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoName {
+  display: block;
+  color: white;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoD1 {
+  display: inline-block;
+  color: white;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoVisitCount {
+  display: inline-block;
+  color: white;
+  padding: 0px 5px;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoVisitCount:before {
+  font-family: commonIcon;
+  content: '\E912';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoDanmuCount {
+  color: white;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoDanmuCount:before {
+  font-family: commonIcon;
+  content: '\E922';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoAuthor a {
+  font-size: 10px;
+  color: white;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoD1 {
+  height: 1.5em;
+  display: inline-block;
+  width: 70%;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoAuthor {
+  height: 1.5em;
+  display: inline-block;
+  width: 30%;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoIn .src-videoDscBox__infoDanmuCount {
+  float: right;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot {
+  width: 160px;
+  height: 42px;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoName {
+  display: block;
+  color: #ababab;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoD1 {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoVisitCount {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoVisitCount:before {
+  font-family: commonIcon;
+  content: '\E912';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoDanmuCount {
+  color: #ababab;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoDanmuCount:before {
+  font-family: commonIcon;
+  content: '\E922';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoAuthor a {
+  font-size: 10px;
+  color: #ababab;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoBot .src-videoDscBox__infoName:hover {
+  color: #1890ff;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm {
+  float: left;
+  width: 160px;
+  height: 105px;
+  height: 100%;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm:after {
+  display: block;
+  visibility: hidden;
+  content: '';
+  clear: both;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoName:hover {
+  color: #1890ff;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoName {
+  display: block;
+  color: #ababab;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoD1 {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoVisitCount {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoVisitCount:before {
+  font-family: commonIcon;
+  content: '\E912';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoDanmuCount {
+  color: #ababab;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoDanmuCount:before {
+  font-family: commonIcon;
+  content: '\E922';
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoAuthor a {
+  font-size: 10px;
+  color: #ababab;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoD1 {
+  white-space: normal;
+}
+.src-videoDscBox__videoDscBoxBoard .src-videoDscBox__infoRightSm .src-videoDscBox__infoAuthor {
+  white-space: normal;
+}
+
+
+/*# sourceMappingURL=test.css.map*/
