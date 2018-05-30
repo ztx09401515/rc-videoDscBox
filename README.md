@@ -1,6 +1,6 @@
 rc-videodscbox
 ==========
-### [online demo](https://ztx09401515.github.io/rc-nav/demo.html)
+### [online demo](https://ztx09401515.github.io/rc-videoDscBox/demo.html)
 ## Usage
 ```jsx harmony
 class Page extends React.Component {
