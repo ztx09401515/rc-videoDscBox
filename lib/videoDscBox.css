@@ -1,0 +1,236 @@
+.videoDscBoxBoard {
+  display: block;
+}
+.videoDscBoxBoard:after {
+  display: block;
+  visibility: hidden;
+  content: '';
+  clear: both;
+}
+.videoDscBoxBoard .videoDscBoxIn {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+}
+.videoDscBoxBoard .videoDscBoxIn .preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.videoDscBoxBoard .videoDscBoxIn .preview .previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.videoDscBoxBoard .videoDscBoxBot {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+}
+.videoDscBoxBoard .videoDscBoxBot .preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.videoDscBoxBoard .videoDscBoxBot .preview .previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.videoDscBoxBoard .videoDscBoxRightSm {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+  float: left;
+}
+.videoDscBoxBoard .videoDscBoxRightSm .preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.videoDscBoxBoard .videoDscBoxRightSm .preview .previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.videoDscBoxBoard .videoDscBoxRightMd {
+  display: block;
+  width: 160px;
+  height: 105px;
+  background-size: cover;
+  cursor: pointer;
+  float: left;
+}
+.videoDscBoxBoard .videoDscBoxRightMd .preview {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.videoDscBoxBoard .videoDscBoxRightMd .preview .previewProgresser {
+  line-height: 8px;
+  font-size: 8px;
+  position: absolute;
+}
+.videoDscBoxBoard .infoIn {
+  width: 160px;
+  height: 40%;
+  position: absolute;
+  top: 60%;
+  font-size: 10px;
+}
+.videoDscBoxBoard .infoIn .infoName {
+  display: block;
+  color: white;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.videoDscBoxBoard .infoIn .infoD1 {
+  display: inline-block;
+  color: white;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoIn .infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoIn .infoAuthor a {
+  font-size: 10px;
+  color: white;
+}
+.videoDscBoxBoard .infoIn .infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.videoDscBoxBoard .infoIn .infoD1 {
+  height: 1.5em;
+  display: inline-block;
+  width: 70%;
+}
+.videoDscBoxBoard .infoIn .infoAuthor {
+  height: 1.5em;
+  display: inline-block;
+  width: 30%;
+}
+.videoDscBoxBoard .infoBot {
+  width: 160px;
+  height: 42px;
+}
+.videoDscBoxBoard .infoBot .infoName {
+  display: block;
+  color: #ababab;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.videoDscBoxBoard .infoBot .infoD1 {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoBot .infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoBot .infoAuthor a {
+  font-size: 10px;
+  color: #ababab;
+}
+.videoDscBoxBoard .infoBot .infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.videoDscBoxBoard .infoBot .infoName:hover {
+  color: #1890ff;
+}
+.videoDscBoxBoard .infoRightSm {
+  float: left;
+  width: 160px;
+  height: 105px;
+  height: 100%;
+}
+.videoDscBoxBoard .infoRightSm:after {
+  display: block;
+  visibility: hidden;
+  content: '';
+  clear: both;
+}
+.videoDscBoxBoard .infoRightSm .infoName:hover {
+  color: #1890ff;
+}
+.videoDscBoxBoard .infoRightSm .infoName {
+  display: block;
+  color: #ababab;
+  padding: 0px 5px;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 1;
+}
+.videoDscBoxBoard .infoRightSm .infoD1 {
+  display: inline-block;
+  color: #ababab;
+  padding: 0px 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoRightSm .infoAuthor {
+  display: inline-block;
+  padding: 0px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.videoDscBoxBoard .infoRightSm .infoAuthor a {
+  font-size: 10px;
+  color: #ababab;
+}
+.videoDscBoxBoard .infoRightSm .infoAuthor a:hover {
+  color: #1890ff;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.videoDscBoxBoard .infoRightSm .infoD1 {
+  white-space: normal;
+}
+.videoDscBoxBoard .infoRightSm .infoAuthor {
+  white-space: normal;
+}
